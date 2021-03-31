@@ -1,0 +1,36 @@
+<html>
+		<head>
+		<title>Game of Thrones Page</title>
+		<link href="newstyle.css" type="text/css" rel="stylesheet" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="scripts/index.js"></script>
+		</head>
+		<body>
+		<div id="box">
+			<div id="lngbar">
+				<h1 style="margin-left:200px;">Game of Thrones Login Page</h1>
+				<img src="Images/log.jpg" style="width:300px;height:250px;margin-right:100px;float:right;border-radius:5px;">
+
+				<img src="Images/germany.jpg" style="width:50px;height:50px;margin-left:60px;border-radius:10px;" onclick="ger()">
+				<img src="Images/england.png" style="width:50px;height:50px;margin-left:60px;border-radius:10px;" onclick="eng()">
+				<img src="Images/romania.png" style="width:50px;height:50px;margin-left:60px;border-radius:10px;" onclick="rom()">
+			</div>
+			<div id="text1" style="text-align:center;margin-top:25px;">
+				Hello dear peasant
+			</div>
+			<div id="text2" style="text-align:center;">
+				This site isn't available right now
+			</div>
+			<div id="text3" style="text-align:center;">
+				Return when winter is coming
+			</div>
+			<div id="logbar">
+				<form action="index.php" method="POST">
+		 				Username: &nbsp; <input type="text" name="username"> &nbsp; &nbsp; 
+						Password: &nbsp;<input type="password" name="pass"> &nbsp;
+				<input type="submit" name="button" value="Login">
+				</form>
+			</div>
+		</div>
+		</html>
+		<?PHP
